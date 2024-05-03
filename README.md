@@ -6,7 +6,7 @@ Dins del directori `api`, trobem diverses subcarpetes que organitzen el codi de 
 
 ## controllers
 
-Els `controllers` són responsables de gestionar la lògica d'aplicació. Quan una ruta rep una petició, el controlador processa aquesta petició, interactua amb models o serveis si és necessari, i finalment retorna una resposta al client.
+Els `controllers` són responsables de gestionar la lògica d'aplicació. Quan una ruta rep una petició, el controlador processa aquesta petició, interactua amb models o serveis si és necessari, i finalment retorna una resposta al client
 
 ### Contingut:
 
