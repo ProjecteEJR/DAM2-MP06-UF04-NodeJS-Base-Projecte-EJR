@@ -1,5 +1,5 @@
 {
-  "fecha": "2024-05-05T15:46:17.762Z",
+  "fecha": "2024-05-05T16:07:33.522Z",
   "longitudPalabras": [
     {
       "longitud": 7,
@@ -46,12 +46,16 @@
   ],
   "usoConsonantes": [
     {
+      "consonante": "b",
+      "cantidad": 9
+    },
+    {
       "consonante": "x",
       "cantidad": 9
     },
     {
-      "consonante": "b",
-      "cantidad": 9
+      "consonante": "r",
+      "cantidad": 4
     },
     {
       "consonante": "s",
@@ -62,19 +66,15 @@
       "cantidad": 4
     },
     {
-      "consonante": "r",
-      "cantidad": 4
-    },
-    {
       "consonante": "d",
       "cantidad": 3
     },
     {
-      "consonante": "m",
+      "consonante": "t",
       "cantidad": 3
     },
     {
-      "consonante": "t",
+      "consonante": "m",
       "cantidad": 3
     },
     {
