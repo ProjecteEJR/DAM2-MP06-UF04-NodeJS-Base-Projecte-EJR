@@ -100,10 +100,8 @@ app.get('/api/stats/words-stats', async (req, res) => {
     await estadisticas.create(estadisticasDocument);
 
     // Guardar estadísticas en un archivo .txt
-    const dataPath = path.join(__dirname, './data');
-    if (!fs.existsSync(dataPath)) {
-      fs.mkdirSync(dataPath);
-    }
+    const dataPath = ('../data');
+
     const filePath = path.join(dataPath, 'estadístiques_diccionari_lletres.txt');
     fs.writeFile(filePath, JSON.stringify(estadisticasDocument, null, 2), (err) => {
       if (err) {
