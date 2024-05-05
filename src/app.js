@@ -7,6 +7,7 @@ const dbConfig = require('./config/db');
 const userRoutes = require('./api/routes/userRoutes');
 const Event = require('./api/models/event');
 const Word = require('./api/models/word');
+const { calculateWordStats } = require('./api/services/wordStatsService'); 
 const app = express();
 
 app.use(express.json());
@@ -19,6 +20,8 @@ mongoose.connect(dbConfig.MONGODB_URI)
 app.get('/api/health', (req, res) => {
   res.json({ status: "OK" });
 });
+
+app.use('/api', userRoutes); // Rutas de usuarios
 
 // POST endpoint para insertar un evento
 app.post('/api/events', async (req, res) => {
@@ -44,10 +47,7 @@ app.get('/api/events/:id', async (req, res) => {
   }
 });
 
-// Usa las rutas de usuarios con el prefijo /api
-app.use('/api', userRoutes);
-
-//Endpoint per afegir paraules a la bbdd diccionari
+// Endpoint para importar palabras
 app.post('/api/import-words', upload.single('file'), async (req, res) => {
   try {
     const zip = new AdmZip(req.file.path);
@@ -70,5 +70,30 @@ app.post('/api/import-words', upload.single('file'), async (req, res) => {
     res.status(500).send(err.message);
   }
 });
+
+// Endpoint para obtener estadísticas de palabras
+app.get('/api/stats/words-stats', async (req, res) => {
+  try {
+    const { wordLengthStats, vowelCounts, consonantCounts } = await calculateWordStats();
+    let response = "• Quantes paraules hi ha amb n lletres.\n";
+    wordLengthStats.forEach(item => {
+      response += `    ◦ ${item._id} lletres: ${item.count}\n`;  // Agrega tabulación para un mejor formato
+    });
+    response += "• Comptage de l’ús de vocals (ordenades de major a menor):\n";
+    vowelCounts.forEach(v => {
+      response += `    ◦ ${v._id}: ${v.count}\n`;
+    });
+    response += "• Comptatge de l’ús de consonants (ordenades de major a menor):\n";
+    consonantCounts.forEach(c => {
+      response += `    ◦ ${c._id}: ${c.count}\n`;
+    });
+    res.setHeader('Content-Type', 'text/plain');
+    res.send(response);
+  } catch (error) {
+    console.error('Error al calcular estadísticas de palabras:', error);
+    res.status(500).send(error.message);
+  }
+});
+
 
 module.exports = app;
