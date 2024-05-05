@@ -1,0 +1,89 @@
+{
+  "fecha": "2024-05-05T15:29:42.207Z",
+  "longitudPalabras": [
+    {
+      "longitud": 7,
+      "cantidad": 2
+    },
+    {
+      "longitud": 8,
+      "cantidad": 1
+    },
+    {
+      "longitud": 10,
+      "cantidad": 3
+    },
+    {
+      "longitud": 11,
+      "cantidad": 2
+    },
+    {
+      "longitud": 14,
+      "cantidad": 1
+    }
+  ],
+  "usoVocales": [
+    {
+      "vocal": "a",
+      "cantidad": 28
+    },
+    {
+      "vocal": "i",
+      "cantidad": 9
+    },
+    {
+      "vocal": "e",
+      "cantidad": 5
+    },
+    {
+      "vocal": "u",
+      "cantidad": 3
+    },
+    {
+      "vocal": "o",
+      "cantidad": 1
+    }
+  ],
+  "usoConsonantes": [
+    {
+      "consonante": "x",
+      "cantidad": 9
+    },
+    {
+      "consonante": "b",
+      "cantidad": 9
+    },
+    {
+      "consonante": "s",
+      "cantidad": 4
+    },
+    {
+      "consonante": "n",
+      "cantidad": 4
+    },
+    {
+      "consonante": "r",
+      "cantidad": 4
+    },
+    {
+      "consonante": "d",
+      "cantidad": 3
+    },
+    {
+      "consonante": "m",
+      "cantidad": 3
+    },
+    {
+      "consonante": "t",
+      "cantidad": 3
+    },
+    {
+      "consonante": "l",
+      "cantidad": 2
+    },
+    {
+      "consonante": "g",
+      "cantidad": 1
+    }
+  ]
+}
