@@ -50,30 +50,6 @@ app.get('/api/events/:id', async (req, res) => {
   }
 });
 
-// Endpoint para importar palabras
-app.post('/api/import-words', upload.single('file'), async (req, res) => {
-  try {
-    const zip = new AdmZip(req.file.path);
-    const zipEntries = zip.getEntries();
-    const textFileEntry = zipEntries.find(entry => entry.entryName.endsWith('.txt'));
-    if (!textFileEntry) {
-      return res.status(400).send('No se encontró un archivo .txt dentro del zip.');
-    }
-
-    const content = textFileEntry.getData().toString('utf8');
-    const words = content.split('\n').filter(line => line.trim()).map(word => ({
-      word: word.trim(),
-      length: word.trim().length
-    }));
-
-    await Word.insertMany(words);
-    res.status(201).send({ message: "Palabras importadas correctamente", count: words.length });
-  } catch (err) {
-    console.error(err);
-    res.status(500).send(err.message);
-  }
-});
-
 // Endpoint para obtener estadísticas de palabras
 app.get('/api/stats/words-stats', async (req, res) => {
   try {

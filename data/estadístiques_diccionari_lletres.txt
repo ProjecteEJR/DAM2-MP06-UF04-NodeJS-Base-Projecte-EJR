@@ -1,88 +1,512 @@
 {
-  "fecha": "2024-05-05T16:07:33.522Z",
+  "fecha": "2024-05-06T22:07:31.663Z",
   "longitudPalabras": [
     {
-      "longitud": 7,
+      "longitud": 1,
       "cantidad": 2
+    },
+    {
+      "longitud": 2,
+      "cantidad": 81
+    },
+    {
+      "longitud": 3,
+      "cantidad": 711
+    },
+    {
+      "longitud": 4,
+      "cantidad": 3250
+    },
+    {
+      "longitud": 5,
+      "cantidad": 9433
+    },
+    {
+      "longitud": 6,
+      "cantidad": 18897
+    },
+    {
+      "longitud": 7,
+      "cantidad": 28646
     },
     {
       "longitud": 8,
-      "cantidad": 1
+      "cantidad": 36949
+    },
+    {
+      "longitud": 9,
+      "cantidad": 42950
     },
     {
       "longitud": 10,
-      "cantidad": 3
+      "cantidad": 40667
     },
     {
       "longitud": 11,
-      "cantidad": 2
+      "cantidad": 33520
+    },
+    {
+      "longitud": 12,
+      "cantidad": 24851
+    },
+    {
+      "longitud": 13,
+      "cantidad": 15448
     },
     {
       "longitud": 14,
-      "cantidad": 1
+      "cantidad": 8383
+    },
+    {
+      "longitud": 15,
+      "cantidad": 4453
+    },
+    {
+      "longitud": 16,
+      "cantidad": 2263
+    },
+    {
+      "longitud": 17,
+      "cantidad": 1173
+    },
+    {
+      "longitud": 18,
+      "cantidad": 504
+    },
+    {
+      "longitud": 19,
+      "cantidad": 207
+    },
+    {
+      "longitud": 20,
+      "cantidad": 87
+    },
+    {
+      "longitud": 21,
+      "cantidad": 90
+    },
+    {
+      "longitud": 22,
+      "cantidad": 59
+    },
+    {
+      "longitud": 23,
+      "cantidad": 8
+    },
+    {
+      "longitud": 24,
+      "cantidad": 7
+    },
+    {
+      "longitud": 25,
+      "cantidad": 5
     }
   ],
   "usoVocales": [
     {
       "vocal": "a",
-      "cantidad": 28
-    },
-    {
-      "vocal": "i",
-      "cantidad": 9
+      "cantidad": 388017
     },
     {
       "vocal": "e",
-      "cantidad": 5
+      "cantidad": 251566
     },
     {
-      "vocal": "u",
-      "cantidad": 3
+      "vocal": "i",
+      "cantidad": 184534
     },
     {
       "vocal": "o",
-      "cantidad": 1
+      "cantidad": 147644
+    },
+    {
+      "vocal": "u",
+      "cantidad": 109046
     }
   ],
   "usoConsonantes": [
     {
-      "consonante": "b",
-      "cantidad": 9
-    },
-    {
-      "consonante": "x",
-      "cantidad": 9
+      "consonante": "s",
+      "cantidad": 222597
     },
     {
       "consonante": "r",
-      "cantidad": 4
-    },
-    {
-      "consonante": "s",
-      "cantidad": 4
+      "cantidad": 214995
     },
     {
       "consonante": "n",
-      "cantidad": 4
+      "cantidad": 158533
     },
     {
-      "consonante": "d",
-      "cantidad": 3
-    },
-    {
-      "consonante": "t",
-      "cantidad": 3
-    },
-    {
-      "consonante": "m",
-      "cantidad": 3
+      "consonante": "c",
+      "cantidad": 154802
     },
     {
       "consonante": "l",
-      "cantidad": 2
+      "cantidad": 129630
+    },
+    {
+      "consonante": "t",
+      "cantidad": 122965
+    },
+    {
+      "consonante": "m",
+      "cantidad": 82229
+    },
+    {
+      "consonante": "b",
+      "cantidad": 73886
     },
     {
       "consonante": "g",
+      "cantidad": 50114
+    },
+    {
+      "consonante": "d",
+      "cantidad": 46091
+    },
+    {
+      "consonante": "p",
+      "cantidad": 40293
+    },
+    {
+      "consonante": "à",
+      "cantidad": 35199
+    },
+    {
+      "consonante": "v",
+      "cantidad": 29599
+    },
+    {
+      "consonante": "f",
+      "cantidad": 24474
+    },
+    {
+      "consonante": "j",
+      "cantidad": 18694
+    },
+    {
+      "consonante": "q",
+      "cantidad": 16610
+    },
+    {
+      "consonante": "é",
+      "cantidad": 15954
+    },
+    {
+      "consonante": "x",
+      "cantidad": 13703
+    },
+    {
+      "consonante": "í",
+      "cantidad": 13601
+    },
+    {
+      "consonante": "z",
+      "cantidad": 11836
+    },
+    {
+      "consonante": "y",
+      "cantidad": 5997
+    },
+    {
+      "consonante": "·",
+      "cantidad": 4701
+    },
+    {
+      "consonante": "ò",
+      "cantidad": 3723
+    },
+    {
+      "consonante": "h",
+      "cantidad": 3712
+    },
+    {
+      "consonante": "ç",
+      "cantidad": 3616
+    },
+    {
+      "consonante": "ï",
+      "cantidad": 2988
+    },
+    {
+      "consonante": "è",
+      "cantidad": 2910
+    },
+    {
+      "consonante": "ó",
+      "cantidad": 2491
+    },
+    {
+      "consonante": "k",
+      "cantidad": 1222
+    },
+    {
+      "consonante": "-",
+      "cantidad": 1023
+    },
+    {
+      "consonante": "ü",
+      "cantidad": 793
+    },
+    {
+      "consonante": "ú",
+      "cantidad": 621
+    },
+    {
+      "consonante": "w",
+      "cantidad": 459
+    },
+    {
+      "consonante": "ā",
+      "cantidad": 174
+    },
+    {
+      "consonante": "á",
+      "cantidad": 102
+    },
+    {
+      "consonante": "'",
+      "cantidad": 80
+    },
+    {
+      "consonante": "ö",
+      "cantidad": 35
+    },
+    {
+      "consonante": "š",
+      "cantidad": 33
+    },
+    {
+      "consonante": "ū",
+      "cantidad": 30
+    },
+    {
+      "consonante": "ī",
+      "cantidad": 29
+    },
+    {
+      "consonante": "ñ",
+      "cantidad": 29
+    },
+    {
+      "consonante": "ä",
+      "cantidad": 27
+    },
+    {
+      "consonante": "č",
+      "cantidad": 20
+    },
+    {
+      "consonante": "ž",
+      "cantidad": 19
+    },
+    {
+      "consonante": "ş",
+      "cantidad": 19
+    },
+    {
+      "consonante": "ō",
+      "cantidad": 14
+    },
+    {
+      "consonante": "â",
+      "cantidad": 13
+    },
+    {
+      "consonante": "ł",
+      "cantidad": 11
+    },
+    {
+      "consonante": "ë",
+      "cantidad": 10
+    },
+    {
+      "consonante": "ṭ",
+      "cantidad": 10
+    },
+    {
+      "consonante": "ø",
+      "cantidad": 9
+    },
+    {
+      "consonante": "ô",
+      "cantidad": 8
+    },
+    {
+      "consonante": "ŏ",
+      "cantidad": 8
+    },
+    {
+      "consonante": "ǧ",
+      "cantidad": 7
+    },
+    {
+      "consonante": "å",
+      "cantidad": 6
+    },
+    {
+      "consonante": "ē",
+      "cantidad": 6
+    },
+    {
+      "consonante": "î",
+      "cantidad": 6
+    },
+    {
+      "consonante": "ţ",
+      "cantidad": 5
+    },
+    {
+      "consonante": "+",
+      "cantidad": 5
+    },
+    {
+      "consonante": "ń",
+      "cantidad": 4
+    },
+    {
+      "consonante": "ê",
+      "cantidad": 4
+    },
+    {
+      "consonante": "ǎ",
+      "cantidad": 3
+    },
+    {
+      "consonante": "ṣ",
+      "cantidad": 3
+    },
+    {
+      "consonante": "ś",
+      "cantidad": 3
+    },
+    {
+      "consonante": "ã",
+      "cantidad": 3
+    },
+    {
+      "consonante": "3",
+      "cantidad": 3
+    },
+    {
+      "consonante": "Ḥ",
+      "cantidad": 3
+    },
+    {
+      "consonante": "ı",
+      "cantidad": 3
+    },
+    {
+      "consonante": "ḥ",
+      "cantidad": 2
+    },
+    {
+      "consonante": "À",
+      "cantidad": 2
+    },
+    {
+      "consonante": "ý",
+      "cantidad": 2
+    },
+    {
+      "consonante": "ă",
+      "cantidad": 2
+    },
+    {
+      "consonante": "ḫ",
+      "cantidad": 2
+    },
+    {
+      "consonante": "É",
+      "cantidad": 2
+    },
+    {
+      "consonante": "₂",
+      "cantidad": 2
+    },
+    {
+      "consonante": "ř",
+      "cantidad": 2
+    },
+    {
+      "consonante": "ì",
+      "cantidad": 2
+    },
+    {
+      "consonante": "ù",
+      "cantidad": 2
+    },
+    {
+      "consonante": "ḗ",
+      "cantidad": 1
+    },
+    {
+      "consonante": "ň",
+      "cantidad": 1
+    },
+    {
+      "consonante": "Ò",
+      "cantidad": 1
+    },
+    {
+      "consonante": "ṇ",
+      "cantidad": 1
+    },
+    {
+      "consonante": "Š",
+      "cantidad": 1
+    },
+    {
+      "consonante": "û",
+      "cantidad": 1
+    },
+    {
+      "consonante": "5",
+      "cantidad": 1
+    },
+    {
+      "consonante": "ķ",
+      "cantidad": 1
+    },
+    {
+      "consonante": "ő",
+      "cantidad": 1
+    },
+    {
+      "consonante": "ŭ",
+      "cantidad": 1
+    },
+    {
+      "consonante": "1",
+      "cantidad": 1
+    },
+    {
+      "consonante": "Ǧ",
+      "cantidad": 1
+    },
+    {
+      "consonante": "ć",
+      "cantidad": 1
+    },
+    {
+      "consonante": "ė",
+      "cantidad": 1
+    },
+    {
+      "consonante": "ǒ",
+      "cantidad": 1
+    },
+    {
+      "consonante": "2",
+      "cantidad": 1
+    },
+    {
+      "consonante": "ę",
+      "cantidad": 1
+    },
+    {
+      "consonante": "ṛ",
       "cantidad": 1
     }
   ]

@@ -36,7 +36,7 @@ async function processXML(filePath) {
                 const words = text.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").split(" ");
 
                 const wordCounts = words.reduce((acc, word) => {
-                    if (globalWordCount >= 5000) return acc; // Detener el conteo si se alcanzan las 5000 palabras
+                    if (globalWordCount >= 20000) return acc; // Detener el conteo si se alcanzan las 20000 palabras
                     if (!acc[word]) acc[word] = 0;
                     acc[word] += 1;
                     globalWordCount += 1; // Incrementar el contador global
